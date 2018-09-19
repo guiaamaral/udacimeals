@@ -1,43 +1,43 @@
 import {
   ADD_RECIPE,
-  REMOVE_FROM_CALENDAR,
+  REMOVE_FROM_CALENDAR
 } from '../actions'
 
 const initialCalendarState = {
   sunday: {
-    breakfeast: null,
+    breakfast: null,
     lunch: null,
-    dinner: null,
+    dinner: null
   },
   monday: {
-    breakfeast: null,
+    breakfast: null,
     lunch: null,
-    dinner: null,
+    dinner: null
   },
   tuesday: {
-    breakfeast: null,
+    breakfast: null,
     lunch: null,
-    dinner: null,
+    dinner: null
   },
   wednesday: {
-    breakfeast: null,
+    breakfast: null,
     lunch: null,
-    dinner: null,
+    dinner: null
   },
   thursday: {
-    breakfeast: null,
+    breakfast: null,
     lunch: null,
-    dinner: null,
+    dinner: null
   },
   friday: {
-    breakfeast: null,
+    breakfast: null,
     lunch: null,
-    dinner: null,
+    dinner: null
   },
   saturday: {
-    breakfeast: null,
+    breakfast: null,
     lunch: null,
-    dinner: null,
+    dinner: null
   },
 }
 
