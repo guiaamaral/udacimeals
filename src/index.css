@@ -1,65 +1,77 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
 }
- ul {
+
+ul {
   padding-left: 0;
 }
- li {
+
+li {
   list-style-type: none;
 }
- .container {
+
+.container {
   margin: 0 auto;
   max-width: 1070px;
   padding: 20px;
   min-width: 1070px;
 }
- .header {
+
+.header {
   font-size: 50px;
   font-weight: 300;
   margin: 10px 0;
 }
- .subheader {
+
+.subheader {
   font-size: 30px;
   font-weight: 300;
 }
- .icon-btn {
+
+.icon-btn {
   background: none;
   border: none;
 }
- .nav {
+
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
- .shopping-list {
+
+.shopping-list {
   background: none;
   font-size: 18px;
   border: none;
   text-decoration: underline;
   cursor: pointer;
 }
- .calendar {
+
+.calendar {
   margin-top: 0;
   display: flex;
 }
- .icon-grid ul {
+
+.icon-grid ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
- .icon-grid {
+
+.icon-grid {
   flex: 1;
 }
- .meal-types {
+
+.meal-types {
   display: flex;
   justify-content: space-around;
   margin: 0;
   margin-left: 152px;
 }
- .meal {
+
+.meal {
   font-size: 23px;
   display: flex;
   flex-direction: column;
@@ -67,13 +79,15 @@ body {
   width: 100px;
   justify-content: center;
 }
- .meal svg {
+
+.meal svg {
   margin: 0 auto;
   display: block;
   margin-top: 15px;
   cursor: pointer;
 }
- .overlay {
+
+.overlay {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -81,7 +95,8 @@ body {
   bottom: 0px;
   background-color: rgba(255, 255, 255, 0.75);
 }
- .modal {
+
+.modal {
   position: absolute;
   top: 40px;
   left: 200px;
@@ -97,32 +112,39 @@ body {
   box-shadow: 0 3px 8px 0 rgba(0,0,0,.24), 0 3px 12px 0 rgba(0,0,0,.12);
   min-width: 500px;
 }
- .search-container h3 {
+
+.search-container h3 {
   text-align: center;
 }
- .food-input {
+
+.food-input {
   width: 90%;
   padding: 10px;
   font-size: 1em;
   border: 1px solid #bdbdbd;
   outline: none;
 }
- .search {
+
+.search {
   display: flex;
 }
- .loading {
+
+.loading {
   align-self: center;
   margin: 0 auto;
 }
- .days h3 {
+
+.days h3 {
   padding: 50px 0;
 }
- .food-list {
+
+.food-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
- .food-list li {
+
+.food-list li {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,33 +152,39 @@ body {
   padding: 10px;
   cursor: pointer;
 }
- .food-list img {
+
+.food-list img {
   width: 100px;
   height: 100px;
   margin: 0 auto;
   border-radius: 3px;
 }
- .ingredients-list {
+
+.ingredients-list {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
- .ingredients-list li {
+
+.ingredients-list li {
   font-size: 24px;
   padding: 5px;
 }
- .food-item {
+
+.food-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
- .food-item img {
+
+.food-item img {
   width: 100px;
   height: 100px;
   border-radius: 3px;
 }
- .food-item button {
+
+.food-item button {
   background: none;
   border: none;
   text-decoration: underline;
