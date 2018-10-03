@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { addRecipe,removeFromCalendar } from '../actions'
 import { capitalize } from '../utils/helpers'
 import { fetchRecipes } from '../utils/api'
-import { FaRegCalendarPlus, FaArrowRight } from 'react-icons/fa'
+import { FaRegCalendarPlus, FaSearch } from 'react-icons/fa'
 import Modal from 'react-modal'
 import Loading from 'react-loading'
 import FoodList from './FoodList'
@@ -119,6 +119,7 @@ class App extends Component {
           isOpen={foodModalOpen}
           onRequestClose={this.closeFoodModal}
           contentLabel='Modal'
+          ariaHideApp={false}
         >
           <div>
             {loadingFood === true
@@ -137,7 +138,7 @@ class App extends Component {
                     <button
                       className='icon-btn'
                       onClick={this.searchFood}>
-                        <FaArrowRight size={30}/>
+                        <FaSearch size={30}/>
                     </button>
                   </div>
                   {food !== null && (
@@ -160,6 +161,7 @@ class App extends Component {
           isOpen={ingredientsModalOpen}
           onRequestClose={this.closeIngredientsModal}
           contentLabel='Modal'
+          ariaHideApp={false}
         >
           {ingredientsModalOpen && <ShoppingList list={this.generateShoppingList()}/>}
         </Modal>
